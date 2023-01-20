@@ -1,0 +1,14 @@
+recaptcha v2 - different object identification or "selecting boxes having traffic signal"
+recaptcha v3 - no user pop up; embedded in the html/css/js; returns a probability; human if p > 0.5
+
+using vision for checkbox; html and css can not be trusted for finding the checkbox as it may contain junk code to throw webscrapers off
+recaptcha solver with 82% accuracy is used in case nocaptcha fails
+can also be done with audio recaptcha instead of image; but no one uses that and no one knows that it exists :)
+
+drawbacks/future:
+if modern versions of recaptcha comes up then need to train better model for that, or can explore the audio route as well
+model for 2nd type of v2 recaptcha can be trained; requires loads of data; even google is using the data to make better driverless cars
+
+references: 
+https://www.blackhat.com/docs/asia-16/materials/asia-16-Sivakorn-Im-Not-a-Human-Breaking-the-Google-reCAPTCHA-wp.pdf
+https://github.com/RyanSh3n/reCAPTCHASolver
