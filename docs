@@ -12,3 +12,9 @@ model for 2nd type of v2 recaptcha can be trained; requires loads of data; even 
 references: 
 https://www.blackhat.com/docs/asia-16/materials/asia-16-Sivakorn-Im-Not-a-Human-Breaking-the-Google-reCAPTCHA-wp.pdf
 https://github.com/RyanSh3n/reCAPTCHASolver
+
+sudo apt-get install scrot
+pip install pyautogui
+pip install matplotlib
+pip install numpy
+pip install cv2
